@@ -8,6 +8,6 @@ The 'printCLI POINTER' was my first project applying automation in Python with p
 
 * Python
 * pyautogui
-
+* pyinstaller
 
 ![image](https://github.com/git-iesus/printCLI_pointer/assets/168778115/e9ef334e-c237-4415-b11d-4cf9263597fe)
