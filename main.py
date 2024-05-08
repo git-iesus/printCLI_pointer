@@ -64,9 +64,9 @@ if modulo == 1:
     limpar_terminal()
     print('Digite os BOLETINS que deseja imprimir:')
     print('-------------------------------------------------------')
-    b1 = str(input('VIBROKRAFT:'))
-    b2 = str(input('ESTRECHADEIRA:'))
-    b3 = str(input('ABAST. INTERNO:'))
+    b1 = str(input('VIBROKRAFT (3 PÁGINAS):'))
+    b2 = str(input('ESTRECHADEIRA (2 PÁGINAS):'))
+    b3 = str(input('ABAST. INTERNO (2 PÁGINAS):'))
     b4 = str(input('ABAST. EXTERNO:'))
     b5 = str(input('PÓ DO SECADOR:'))
 else:
