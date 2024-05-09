@@ -21,9 +21,9 @@ def limpar_terminal():
 
 # FUNÇÃO IMPRIMIR
 def imprimir():
-    sleep(1)
+    sleep(2)
     patg.hotkey('ctrl','p')
-    sleep(1)
+    sleep(3)
     patg.press('tab')
     patg.press('tab')
     patg.press('tab')
@@ -33,7 +33,7 @@ def imprimir():
     patg.press('down')
     patg.press('down')
     patg.press('down')
-    sleep(1)
+    sleep(2)
 
 
 
