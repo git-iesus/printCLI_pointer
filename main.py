@@ -69,6 +69,7 @@ if modulo == 1:
     b3 = str(input('ABAST. INTERNO (2 PÁGINAS):'))
     b4 = str(input('ABAST. EXTERNO:'))
     b5 = str(input('PÓ DO SECADOR:'))
+    b6 = str(input('ENVASE:'))
 else:
     limpar_terminal()
     print('Digite as IDENTIFICAÇÕES que deseja imprimir:')
@@ -156,6 +157,19 @@ else:
     patg.press('tab')
     sleep(0.5)
     patg.write(b5)       #---MODIFICAR VARIÁVEL 
+    sleep(0.5)
+    patg.press('enter')
+
+if b6 == '0':
+    pass
+else:
+    imprimir()
+
+    patg.write('15-16')    #---MODIFICAR INTERVALO
+    sleep(0.5)
+    patg.press('tab')
+    sleep(0.5)
+    patg.write(b6)       #---MODIFICAR VARIÁVEL 
     sleep(0.5)
     patg.press('enter')
 
