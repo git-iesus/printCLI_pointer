@@ -70,7 +70,7 @@ if modulo == 1:
     b3 = str(input('ABAST. INTERNO (2 PÁGINAS):'))
     b4 = str(input('ABAST. EXTERNO:'))
     b5 = str(input('PÓ DO SECADOR:'))
-    b6 = str(input('ENVASE:'))
+    b6 = str(input('ENVASE (2 PÁGINAS):'))
 else:
     limpar_terminal()
     print('Digite as IDENTIFICAÇÕES que deseja imprimir:')
